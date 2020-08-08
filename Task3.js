@@ -1,11 +1,25 @@
-// printSegitiga
+let spc = '';
+let num = 3;
 
-let i;
-let j;
+for (let i = num; i >= 1; i--) {
+    for (let j = 1; j <= i; j++) {
 
-for (let i = 1; i <= 5; i++) {
-    for (let j = 0; j < i; j++) {
-        console.log(i);
+        spc += j;
     }
-    console.log(i);
+    console.log(spc)
+    spc = ''
 }
+// asd = (num) => {
+//     let spc = '';
+
+//     for (let i = num; i >= 1; i--) {
+//         for (let j = 1; j <= i; j++) {
+
+//             spc += j;
+//         }
+//         console.log(spc)
+//         spc = ''
+//     }
+
+// }
+// asd(4)

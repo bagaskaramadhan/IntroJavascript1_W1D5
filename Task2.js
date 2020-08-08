@@ -8,21 +8,22 @@
 function nilaiRata2(ind, eng, mtk, ipa) {
     const grade = "Grade =";
     const avg = ((ind + eng + mtk + ipa) / 4);
+    let all = parseInt(avg);
     // const avgg = avg.toFixed(0);
     // console.log(typeof avg);
     // console.log(typeof avgg);
-    console.log("Rata - rata:",avg);
-    if (avg >= 90 && avg <=100) {
+    console.log("Rata - rata:",all);
+    if (all >= 90 && all <=100) {
         console.log(grade,"A");
-    }else if (avg >= 80 && avg <= 89) {
+    }else if (all >= 80 && all <= 89) {
         console.log(grade,'B');
-    }else if (avg >= 70 && avg <= 79) {
+    }else if (all >= 70 && all <= 79) {
         console.log(grade,'C');
-    }else if (avg >= 60 && avg <= 69) {
+    }else if (all >= 60 && all <= 69) {
         console.log(grade,'D');
-    }else if (avg >=0 && avg <= 59) {
+    }else if (all >=0 && all <= 59) {
         console.log(grade,'E');
     }
 }
 
-nilaiRata2(69, 50, 64, 78);
+nilaiRata2(69, 50, 64, 57);
