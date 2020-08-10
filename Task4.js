@@ -24,4 +24,4 @@ let real = {...data,
 console.log(real);
 //destruc
 let = {address:{street,city}} = data;
-console.log({street},{city})
+console.log(`${street},${city}`)
